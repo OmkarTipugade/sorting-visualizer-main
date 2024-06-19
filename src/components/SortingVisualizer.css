@@ -1,0 +1,43 @@
+.visualizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .array-bar {
+    background-color: turquoise;
+    width: 5px;
+    margin: 0 1px;
+  }
+  .visualizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 20px 0;
+    width: 80%; /* Ensure the container takes a percentage of the screen width */
+  }
+  
+  .array-bar {
+    background-color: turquoise;
+    margin: 0 1px;
+    transition: height 0.3s;
+  }
+  
+  /* Adjust width based on array size */
+  .array-bar {
+    width: calc(100% / var(--array-size));
+  }
+    
