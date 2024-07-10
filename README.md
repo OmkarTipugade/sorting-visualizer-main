@@ -1,5 +1,3 @@
-Sure! Below is a template for a `README.md` file for your sorting visualizer project:
-
 # Sorting Visualizer
 
 Sorting Visualizer is an interactive tool that visualizes various sorting algorithms. It helps users understand how different sorting algorithms work by providing a visual representation of the sorting process.
